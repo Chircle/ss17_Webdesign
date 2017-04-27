@@ -1,3 +1,31 @@
-.hello h1 {
-    color: mediumvioletred;
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Open Sans', serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: #44008b;
+}
+
+.inNav {
+    padding: 10px 50px;
+    padding-top: 25px;
+}
+
+.navPad {
+    padding-top: 20px;
+}
+.logo {
+    margin: 20px;
+    display:inline;
+}
+.logo img{
+    max-height: 100px;
 }
