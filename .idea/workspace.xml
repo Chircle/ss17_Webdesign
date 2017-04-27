@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="823a88ce-636d-4908-b223-e1102a2b4c86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fragebogen.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript-mathe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/malboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mathe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nochmalmathe.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Spiel &amp; Spaß.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sparkle.css" afterPath="$PROJECT_DIR$/css/sparkle.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sparkle.js" afterPath="$PROJECT_DIR$/js/sparkle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/function.js" afterPath="$PROJECT_DIR$/js/function.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/canvas.html" afterPath="$PROJECT_DIR$/canvas.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fragebogen.html" afterPath="$PROJECT_DIR$/fragebogen.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript-mathe.html" afterPath="$PROJECT_DIR$/javascript-mathe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/malboard.html" afterPath="$PROJECT_DIR$/malboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mathe.html" afterPath="$PROJECT_DIR$/mathe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nochmalmathe.html" afterPath="$PROJECT_DIR$/nochmalmathe.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,7 +36,7 @@
         </entry>
       </file>
       <file leaf-file-name="function.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/function.js">
+        <entry file="file://$PROJECT_DIR$/js/function.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
@@ -175,9 +172,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mechu\WebstormProjects\WebdesignAbgabe\js" />
       <recent name="C:\Users\Mechu\WebstormProjects\WebdesignAbgabe\css" />
       <recent name="C:\Users\Mechu\WebstormProjects\WebdesignAbgabe" />
-      <recent name="C:\Users\Mechu\WebstormProjects\WebdesignAbgabe\js" />
       <recent name="C:\Users\Mechu\WebstormProjects\WebdesignAbgabe\css\js" />
     </key>
   </component>
@@ -294,12 +291,12 @@
       <workItem from="1493123646011" duration="440000" />
       <workItem from="1493151314515" duration="1056000" />
       <workItem from="1493279589012" duration="713000" />
-      <workItem from="1493280951746" duration="16093000" />
+      <workItem from="1493280951746" duration="16711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21487000" />
+    <option name="totallyTimeSpent" value="22105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -470,7 +467,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/function.js">
+    <entry file="file://$PROJECT_DIR$/js/function.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
