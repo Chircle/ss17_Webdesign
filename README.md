@@ -8,7 +8,7 @@ http://www.color-hex.com/color-palette/37551
 
 http://www.color-hex.com/color-palette/24334
 
-http://www.color-hex.com/color-palette/30781
+---> preffered: http://www.color-hex.com/color-palette/30781
 
 
 Working fonts:
