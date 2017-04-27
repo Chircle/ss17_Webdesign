@@ -11,11 +11,18 @@ body {
 }
 
 
+
 h1.title , h2.title, h3.title , h4.title , h5.title , h6.title  {
     font-family: 'Playfair Display', serif;
     color: #44008b;
     width: auto;
 }
+
+h1.title{
+     font-size: 36px !important;
+     text-shadow: 0 2px 1px #8f8f8f;
+ }
+
 
 /* NAVGATION */
 header {
@@ -66,24 +73,49 @@ nav.navbar.navbar-default.navbar-fixed-top.inNav {
 
 /* FOOTER */
 
-footer {
+footer#footer {
     background-color: #536eff;
     color: #fff;
-    height: 300px;
+    height: 250px;
 }
 
-footer .container {
+footer#footer .container {
     padding-top: 35px;
 }
 
-footer h2.title  {
+footer h2.title, footer li a, footer ul li a, footer#copyright .copyright-bar a  {
     color: #fff;
 }
 
 
-.foo-bar {
-    margin-right: 20px;
+footer li, footer ul li {
+    list-style-type: square;
+    color: #fff;
 }
-.foo-bar.last {
+
+footer li a:hover, footer ul li a:hover, footer#copyright .copyright-bar a:hover {
+    color: #ffe4f2;
+    text-decoration: none;
+}
+
+.foo-bar {
     margin-right: 0px;
+}
+.foo-bar .transparent {
+    color: transparent;
+}
+
+footer#copyright {
+    padding: 10px 0 20px;
+    background-color: #00076f;
+    color: #fff;
+}
+
+.copyright-bar.right {
+    float: right;
+    text-align: right;
+}
+
+.copyright-bar.right>#quote {
+    font-size: 12px;
 }
