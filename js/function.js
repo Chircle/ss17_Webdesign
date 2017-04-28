@@ -1,7 +1,7 @@
 /**
  * Created by Mechu on 27.04.2017.
  */
-window.onload = function() {
+window.onload = function () {
     var c = document.getElementById("myCanvas");
     var ctx = c.getContext("2d");
 
@@ -48,7 +48,6 @@ window.onload = function() {
     ctx.closePath();
 
 
-
     //Blume
     ctx.beginPath();
     ctx.moveTo(120, 720);
@@ -62,7 +61,7 @@ window.onload = function() {
     ctx.closePath();
 
     ctx.beginPath();
-    ctx.arc(125, 715,3, 0,2*Math.PI);
+    ctx.arc(125, 715, 3, 0, 2 * Math.PI);
     ctx.fillStyle = '#ffff66';
     ctx.fill();
     ctx.strokeStyle = '#ffff66';
@@ -86,7 +85,7 @@ window.onload = function() {
 
     // Sonne
     ctx.beginPath();
-    ctx.arc(750,70,50,0,2*Math.PI);
+    ctx.arc(750, 70, 50, 0, 2 * Math.PI);
     ctx.fillStyle = '#ffff66';
     ctx.fill();
     ctx.strokeStyle = '#ffff66';
@@ -99,8 +98,8 @@ window.onload = function() {
     ctx.lineTo(650, 500);
     ctx.lineTo(350, 500);
     ctx.lineTo(350, 750);
-    ctx.strokeStyle="#e9d6be";
-    ctx.fillStyle="#e9d6be";
+    ctx.strokeStyle = "#e9d6be";
+    ctx.fillStyle = "#e9d6be";
     ctx.fill();
     ctx.closePath();
 
@@ -111,8 +110,8 @@ window.onload = function() {
     ctx.lineTo(800, 425);
     ctx.lineTo(650, 500);
     ctx.lineTo(650, 750);
-    ctx.strokeStyle="#e3caab";
-    ctx.fillStyle="#e3caab";
+    ctx.strokeStyle = "#e3caab";
+    ctx.fillStyle = "#e3caab";
     ctx.fill();
     ctx.closePath();
 
@@ -122,8 +121,8 @@ window.onload = function() {
     ctx.lineTo(650, 500);
     ctx.lineTo(500, 350);
     ctx.lineTo(350, 500);
-    ctx.strokeStyle="#c86d26";
-    ctx.fillStyle="#c86d26";
+    ctx.strokeStyle = "#c86d26";
+    ctx.fillStyle = "#c86d26";
     ctx.fill();
     ctx.closePath();
 
@@ -134,8 +133,8 @@ window.onload = function() {
     ctx.lineTo(650, 275);
     ctx.lineTo(500, 350);
     ctx.lineTo(650, 500);
-    ctx.strokeStyle="#b36122";
-    ctx.fillStyle="#b36122";
+    ctx.strokeStyle = "#b36122";
+    ctx.fillStyle = "#b36122";
     ctx.fill();
     ctx.closePath();
 
@@ -146,8 +145,8 @@ window.onload = function() {
     ctx.lineTo(600, 600);
     ctx.lineTo(550, 600);
     ctx.lineTo(550, 550);
-    ctx.strokeStyle="#247aa3";
-    ctx.fillStyle="#247aa3";
+    ctx.strokeStyle = "#247aa3";
+    ctx.fillStyle = "#247aa3";
     ctx.fill();
     ctx.closePath();
 
@@ -158,8 +157,8 @@ window.onload = function() {
     ctx.lineTo(475, 650);
     ctx.lineTo(425, 650);
     ctx.lineTo(425, 750);
-    ctx.strokeStyle="#b36122";
-    ctx.fillStyle="#b36122";
+    ctx.strokeStyle = "#b36122";
+    ctx.fillStyle = "#b36122";
     ctx.fill();
     ctx.closePath();
 
@@ -180,10 +179,23 @@ window.onload = function() {
 
     //Baum rechts - Krone
     ctx.beginPath();
-    ctx.arc(840, 500, 90, 0,2*Math.PI)
+    ctx.arc(840, 500, 90, 0, 2 * Math.PI)
     ctx.lineWidth = 2;
     ctx.strokeStyle = "#278d23";
     ctx.fillStyle = "#278d23";
     ctx.fill();
     ctx.closePath();
+
 }
+
+
+window.onload = function () {
+    var c = document.getElementById("sheet");
+    var canvas = new fabric.Canvas(c);
+    canvas.isDrawingMode = true;
+    canvas.freeDrawingBrush.width = 1;
+    canvas.freeDrawingBrush.color = "#9f45b0";
+    console.log(canvas);
+
+}
+

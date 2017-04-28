@@ -73,7 +73,7 @@ nav.navbar.navbar-default.navbar-fixed-top.inNav {
 
 /*CONTENT - CANVAS*/
 
-canvas#myCanvas {
+.image canvas{
     border: #ff95ea 1px solid;
 }
 
