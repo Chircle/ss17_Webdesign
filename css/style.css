@@ -66,9 +66,15 @@ nav.navbar.navbar-default.navbar-fixed-top.inNav {
 }
 
 .image img {
-    border: pink 1px solid;
+    border: #ff95ea 1px solid;
     width: 100%;
     padding: 15px;
+}
+
+/*CONTENT - CANVAS*/
+
+canvas#myCanvas {
+    border: #ff95ea 1px solid;
 }
 
 /* FOOTER */
