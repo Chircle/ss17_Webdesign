@@ -1,7 +1,11 @@
 /**
  * Created by Mechu on 27.04.2017.
+ *
+ *
+ *
+ * Mit Shift + F10 kann man den html code ausführn
  */
-window.onload = function () {
+window.onload=function() {
     var c = document.getElementById("myCanvas");
     var ctx = c.getContext("2d");
 
@@ -176,26 +180,4 @@ window.onload = function () {
     ctx.closePath();
     ctx.stroke();
 
-
-    //Baum rechts - Krone
-    ctx.beginPath();
-    ctx.arc(840, 500, 90, 0, 2 * Math.PI)
-    ctx.lineWidth = 2;
-    ctx.strokeStyle = "#278d23";
-    ctx.fillStyle = "#278d23";
-    ctx.fill();
-    ctx.closePath();
-
 }
-
-
-window.onload = function () {
-    var c = document.getElementById("sheet");
-    var canvas = new fabric.Canvas(c);
-    canvas.isDrawingMode = true;
-    canvas.freeDrawingBrush.width = 1;
-    canvas.freeDrawingBrush.color = "#9f45b0";
-    console.log(canvas);
-
-}
-
