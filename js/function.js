@@ -180,4 +180,11 @@ window.onload=function() {
     ctx.closePath();
     ctx.stroke();
 
+    //Baum rechts - Krone
+    ctx.beginPath();
+    ctx.arc(850,375,140,0 ,2*Math.PI);
+    ctx.fillStyle = '#278d23';
+    ctx.fill();
+    ctx.strokeStyle = '#278d23';
+    ctx.stroke();
 }
