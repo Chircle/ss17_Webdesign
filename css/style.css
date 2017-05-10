@@ -16,6 +16,7 @@ h1.title , h2.title, h3.title , h4.title , h5.title , h6.title  {
     font-family: 'Playfair Display', serif;
     color: #44008b;
     width: auto;
+    margin-bottom: 30px;
 }
 
 h1.title{
@@ -61,7 +62,7 @@ nav.navbar.navbar-default.navbar-fixed-top.inNav {
 
 .container.content {
     background-color: white;
-    padding: 30px 40px;
+    padding: 30px 40px 100px;
     box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
 }
 
@@ -74,6 +75,15 @@ nav.navbar.navbar-default.navbar-fixed-top.inNav {
 
 .image canvas{
     border: #ff95ea 1px solid;
+}
+
+/*CONTENT - MATHS*/
+
+.maths {
+    border: 1px dashed grey;
+    padding: 10px;
+    min-height: 200px;
+    margin-bottom: 25px;
 }
 
 /* FOOTER */
