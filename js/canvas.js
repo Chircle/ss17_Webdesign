@@ -51,25 +51,315 @@ window.onload=function() {
     ctx.fill();
     ctx.closePath();
 
-
+	
     //Blume
-    ctx.beginPath();
-    ctx.moveTo(120, 720);
-    ctx.bezierCurveTo(120, 740, 130, 740, 130, 720);
-    ctx.bezierCurveTo(140, 720, 140, 700, 130, 710);
-    ctx.bezierCurveTo(110, 710, 110, 720, 120, 720);
-    ctx.lineWidth = 2;
-    ctx.strokeStyle = "#ff6666";
-    ctx.fillStyle = "#ff6666";
-    ctx.fill();
-    ctx.closePath();
+  //  ctx.beginPath();
+  //  ctx.moveTo(120, 720);
+  //  ctx.bezierCurveTo(120, 740, 130, 740, 130, 720);
+  //  ctx.bezierCurveTo(140, 720, 140, 700, 130, 710);
+  //  ctx.bezierCurveTo(110, 710, 110, 720, 120, 720);
+  //  ctx.lineWidth = 2;
+  //  ctx.strokeStyle = "#ff6666";
+  //  ctx.fillStyle = "#ff6666";
+  //  ctx.fill();
+  //  ctx.closePath();
 
-    ctx.beginPath();
-    ctx.arc(125, 715, 3, 0, 2 * Math.PI);
-    ctx.fillStyle = '#ffff66';
-    ctx.fill();
-    ctx.strokeStyle = '#ffff66';
-    ctx.stroke();
+  //  ctx.beginPath();
+  //  ctx.arc(125, 715, 3, 0, 2 * Math.PI);
+  //  ctx.fillStyle = '#ffff66';
+  //  ctx.fill();
+  //  ctx.strokeStyle = '#ffff66';
+  //  ctx.stroke();
+	
+//Blume 1 orange
+ctx.beginPath();
+ctx.strokeStyle='orange';
+ctx.fillStyle='orange';
+ctx.arc(125, 715, 8, 0, 2 * Math.PI);
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.strokeStyle='orange';
+ctx.fillStyle='orange';
+ctx.arc(133, 725, 8, 0, 2 * Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='orange';
+ctx.fillStyle='orange';
+ctx.arc(140, 715, 8, 0, 2 * Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='black';
+ctx.fillStyle='black';
+ctx.arc(133, 719, 4, 0, 2 * Math.PI);
+ctx.fill();
+ctx.stroke(); 
+
+//Blume 2 pink
+
+ctx.beginPath();
+ctx.strokeStyle='#be2c54';
+ctx.fillStyle='#be2c54';
+ctx.arc(200,720,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.strokeStyle='#be2c54';
+ctx.fillStyle='#be2c54';
+ctx.arc(208,730,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='#be2c54';
+ctx.fillStyle='#be2c54';
+ctx.arc(215,720,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='black';
+ctx.fillStyle='black';
+ctx.arc(208,724,4,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+//Blume 3 blau
+
+ctx.beginPath();
+ctx.strokeStyle='#0094ff';
+ctx.fillStyle='#0094ff';
+ctx.arc(100,720,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.strokeStyle='#0094ff';
+ctx.fillStyle='#0094ff';
+ctx.arc(104,730,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='#0094ff';
+ctx.fillStyle='#0094ff';
+ctx.arc(107,720,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='black';
+ctx.fillStyle='black';
+ctx.arc(104,724,4,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+//Blume 4 rot 
+
+ctx.beginPath();
+ctx.strokeStyle='#FF0000';
+ctx.fillStyle='#FF0000';
+ctx.arc(150,720,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.strokeStyle='##FF0000';
+ctx.fillStyle='#FF0000';
+ctx.arc(154,730,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='#FF0000';
+ctx.fillStyle='#FF0000';
+ctx.arc(157,720,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='black';
+ctx.fillStyle='black';
+ctx.arc(154,724,4,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+//Blume 5 gelb
+
+ctx.beginPath();
+ctx.strokeStyle='#e6eb10';
+ctx.fillStyle='#e6eb10';
+ctx.arc(150,770,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.strokeStyle='#e6eb10';
+ctx.fillStyle='#e6eb10';
+ctx.arc(154,780,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='#e6eb10';
+ctx.fillStyle='#e6eb10';
+ctx.arc(157,770,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='black';
+ctx.fillStyle='black';
+ctx.arc(154,774,4,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+//Blume 6 rosa 
+
+ctx.beginPath();
+ctx.strokeStyle='#dda990';
+ctx.fillStyle='#dda990';
+ctx.arc(150,750,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.strokeStyle='#dda990';
+ctx.fillStyle='#dda990';
+ctx.arc(154,760,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='#dda990';
+ctx.fillStyle='#dda990';
+ctx.arc(157,750,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='black';
+ctx.fillStyle='black';
+ctx.arc(154,748,4,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+//Blume 7 hellblau
+
+ctx.beginPath();
+ctx.strokeStyle='#52859f';
+ctx.fillStyle='#52859f';
+ctx.arc(130,740,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.strokeStyle='#52859f';
+ctx.fillStyle='#52859f';
+ctx.arc(134,750,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='#52859f';
+ctx.fillStyle='#52859f';
+ctx.arc(137,740,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='black';
+ctx.fillStyle='black';
+ctx.arc(134,744,4,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+//Blume 8 orange dunkel
+
+ctx.beginPath();
+ctx.strokeStyle='#f0650e';
+ctx.fillStyle='#f0650e';
+ctx.arc(210,750,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.strokeStyle='#f0650e';
+ctx.fillStyle='#f0650e';
+ctx.arc(218,760,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='#f0650e';
+ctx.fillStyle='#f0650e';
+ctx.arc(225,750,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='black';
+ctx.fillStyle='black';
+ctx.arc(218,754,4,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+//Blume 9 blau
+
+ctx.beginPath();
+ctx.strokeStyle='#be2c54';
+ctx.fillStyle='#be2c54';
+ctx.arc(100,770,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.strokeStyle='#be2c54';
+ctx.fillStyle='#be2c54';
+ctx.arc(104,780,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='#be2c54';
+ctx.fillStyle='#be2c54';
+ctx.arc(107,770,8,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.strokeStyle='black';
+ctx.fillStyle='black';
+ctx.arc(104,774,4,0,2* Math.PI);
+ctx.fill();
+ctx.stroke();
+
+
 
     // Wolke
     ctx.beginPath();
