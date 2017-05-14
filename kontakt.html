@@ -28,8 +28,8 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
-    <script type="text/javascript" src="js/canvas.js"></script>
     <script type="text/javascript" src="js/sparkle.js"></script>
+    <script type="text/javascript" src="js/sendMail.js"></script>
 </head>
 <body>
 
@@ -105,7 +105,7 @@
     </div>
 
 
-    <div class="col-lg-6 image sparkley">
+    <div class="col-lg-6 sparkley">
         <div style="width: 400px">
             <iframe width="500" height="300"
                     src="http://regiohelden.de/google-maps/map.php?width=600&amp;height=300&amp;hl=de&amp;q=Max-Planck-Stra%C3%9Fe%2039%2C%2074081%20Heilbronn+(Sontheim%2C%20Hochschule%20Heilbronn)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
@@ -118,26 +118,50 @@
             by <a href="http://www.regiohelden.de/" style="font-size: 9px;">RegioHelden</a></span>
         </div>
     </div>
+    <div class="col-lg-6">
+        <h3>Fragen? Melden Sie sich bei uns</h3>
+        <form class="col-xs-12" action="">
+            <div class="col-xs-6">
+                <fieldset>
+                    <input type="radio" id="fr" name="anrede" value="Frau">
+                    <label for="fr">Frau</label>
+                    <input type="radio" id="hr" name="anrede" value="Herr">
+                    <label for="hr">Herr</label><br>
+                </fieldset>
+
+                <input type="text" name="vorname" placeholder="Vorname">
+                <br>
+                <input type="text" name="lastname" placeholder="Nachname">
+                <br>
+                <input type="email" name="email" placeholder="E-Mail">
+            </div>
+            <div class="col-xs-6">
+                <textarea name="nachricht" id="nachricht" placeholder="Hier ist Platz für Ihre Frage"></textarea>
+                <br><br>
+                <input type="submit" name="submit" onclick="sendMail(); return false" value="Senden">
+            </div>
+        </form>
+    </div>
 </div>
 
 
 <footer id="footer">
     <div class="container">
-        <div class="col-lg-3 foo-bar">
+        <div class="col-xs-3 foo-bar">
             <h2 class="title">Anschrift</h2>
             <p>Mechu Mechu<br>
                 Sonia Sonia<br>
                 Luzie Luzie
             </p>
         </div>
-        <div class="col-lg-3 foo-bar">
+        <div class="col-xs-3 foo-bar">
             <h2 class="title">Kontakt</h2>
             Mechu Mechu: 1234 / 98765432-01<br>
             Sonia Sonia: 1234 / 98765432-02<br>
             Luzie Luzie: 1234 / 98765432-03
         </div>
 
-        <div class="col-lg-3 foo-bar">
+        <div class="col-xs-3 foo-bar">
             <h2 class="title">Navigation</h2>
             <li><a href="index.html">Home</a></li>
             <li><a class="">Spiel & Spaß</a>
@@ -148,7 +172,7 @@
                 </ul>
         </div>
 
-        <div class="col-lg-3 foo-bar">
+        <div class="col-xs-3 foo-bar">
             <h2 class="title transparent">Magic</h2>
             <li><a class="">Logik</a>
                 <ul>

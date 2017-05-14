@@ -2,7 +2,7 @@
  * Created by Mechu on 27.04.2017.
  *
  *
- *
+ * Mechus Reminder:
  * Mit Shift + F10 kann man den html code ausführn
  */
 window.onload=function() {
