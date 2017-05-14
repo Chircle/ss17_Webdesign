@@ -73,6 +73,10 @@ nav.navbar.navbar-default.navbar-fixed-top.inNav {
 
 /*CONTENT - CANVAS*/
 
+canvas {
+    width: 100% !important;
+}
+
 .image canvas{
     border: #ff95ea 1px solid;
 }
@@ -133,4 +137,12 @@ footer#copyright {
 
 .copyright-bar.right>#quote {
     font-size: 12px;
+}
+
+/* MOBILE DEVICES */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        background-color: pink;
+    }
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Wedesign</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -30,6 +30,8 @@
 
     <script type="text/javascript" src="js/sparkle.js"></script>
     <script type="text/javascript" src="js/sendMail.js"></script>
+
+
 </head>
 <body>
 
@@ -120,7 +122,7 @@
     </div>
     <div class="col-lg-6">
         <h3>Fragen? Melden Sie sich bei uns</h3>
-        <form class="col-xs-12" action="">
+        <form class="col-xs-12" action="action_page.php" method="post">
             <div class="col-xs-6">
                 <fieldset>
                     <input type="radio" id="fr" name="anrede" value="Frau">
@@ -138,7 +140,7 @@
             <div class="col-xs-6">
                 <textarea name="nachricht" id="nachricht" placeholder="Hier ist Platz für Ihre Frage"></textarea>
                 <br><br>
-                <input type="submit" name="submit" onclick="sendMail(); return false" value="Senden">
+                <input type="submit" name="submit" value="Senden">
             </div>
         </form>
     </div>
@@ -181,7 +183,7 @@
             </li>
             <li><a class="">Kontakt</a>
                 <ul>
-                    <li><a href="mathe.html">Kontakt</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
                     <li><a href="impressum.html">Impressum</a></li>
                 </ul>
             </li>
