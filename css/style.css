@@ -71,7 +71,27 @@ nav.navbar.navbar-default.navbar-fixed-top.inNav {
     padding: 15px;
 }
 
-/*CONTENT - CANVAS*/
+/* CONTENT - FRAGEBOGEN */
+
+#questBtn {
+    background-color: #ffe4f2;
+    color: #383030;
+    font-weight: bold;
+    padding: 5px 11px;
+    box-shadow: 0 0 0 #fff;
+    border: 2px dotted pink;
+}
+
+#questBtn:hover {
+    background-color: #eddee6;
+    color: #383030;
+    font-weight: bold;
+    padding: 5px 11px;
+    box-shadow: 0 0 0 #fff;
+    border: 2px dotted #d6c0ff
+}
+
+/* CONTENT - CANVAS */
 
 canvas {
     width: 100% !important;
@@ -81,13 +101,50 @@ canvas {
     border: #ff95ea 1px solid;
 }
 
-/*CONTENT - MATHS*/
+/* CONTENT - MATHS */
 
 .maths {
     border: 1px dashed grey;
     padding: 10px;
     min-height: 200px;
     margin-bottom: 25px;
+}
+
+div#time {
+
+    font-size: 8em;
+    -webkit-animation: color 5s cubic-bezier(1, 0, 0, 1) infinite;
+    animation: color 5s cubic-bezier(1, 0, 0, 1) infinite;
+}
+
+@-webkit-keyframes color {
+    0% {
+        color: #f99;
+    }
+    33% {
+        color: #9f9;
+    }
+    67% {
+        color: #99f;
+    }
+    100% {
+        color: #f99;
+    }
+}
+
+@keyframes color {
+    0% {
+        color: #f99;
+    }
+    33% {
+        color: #9f9;
+    }
+    67% {
+        color: #99f;
+    }
+    100% {
+        color: #f99;
+    }
 }
 
 /* FOOTER */
@@ -142,7 +199,7 @@ footer#copyright {
 /* MOBILE DEVICES */
 @media (max-width: 768px) {
     .container {
-        width: 100%;
+        width: 100% !important;
         background-color: pink;
     }
 }

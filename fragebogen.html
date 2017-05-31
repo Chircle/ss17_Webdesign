@@ -28,6 +28,7 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
+    <script type="text/javascript" src="js/fragebogen.js"></script>
     <script type="text/javascript" src="js/sparkle.js"></script>
 </head>
 <body>
@@ -84,28 +85,30 @@
             fertig...LOS!
         </p>
         <p>Ich verzichte auf Mittag essen, wenn Ich dafür eine Einhorn-Torte bekomme! Ja (süss), Nein (herzhaft)
-            <select>
+            <select id="firstQuest">
                 <option value="-">-</option>
-                <option value="süss">Süss</option>
+                <option value="suess">Süss</option>
                 <option value="herzhaft">Herzhaft</option>
             </select>
         </p>
 
         <p>Ich liebe den Duft von Zuckerwatte! Ja (süss), Nein (herzhaft)
-            <select>
+            <select id="secondQuest">
                 <option value="-">-</option>
-                <option value="süss">Süss</option>
+                <option value="suess">Süss</option>
                 <option value="herzhaft">Herzhaft</option>
             </select>
         </p>
 
         <p>Du bestellst einen fetten Burger, verzichtest auf Nachtisch und bestellst dafür noch eine große Portion Pommes. Ja (herzhaft), Nein (süss)
-            <select>
+            <select id="thirdQuest">
                 <option value="-">-</option>
-                <option value="süss">Süss</option>
+                <option value="suess">Süss</option>
                 <option value="herzhaft">Herzhaft</option>
             </select>
         </p>
+        <button id="questBtn" onclick="questionnaireResult()">Lösung!</button>
+        <p id="result"></p>
 
     </div>
 
