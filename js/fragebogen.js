@@ -1,7 +1,7 @@
 /**
  * Created by Sonia on 15.05.2017.
  */
-window.onload = function questionnaireResult() {
+window.questionnaireResult = function questionnaireResult() {
     var a = document.getElementById('firstQuest').value;
     var b = document.getElementById('secondQuest').value;
     var c = document.getElementById('thirdQuest').value;
