@@ -40,7 +40,7 @@ header {
 }
 
 nav.navbar.navbar-default.navbar-fixed-top.inNav {
-    //background-image: -webkit-linear-gradient(top,#fff 0,#c9ffea 100%)
+    /*background-image: -webkit-linear-gradient(top,#fff 0,#c9ffea 100%);*/
     background-image: -webkit-linear-gradient(top,#c9ffea 0,#c9ffea 100%);
     background: #c9ffea !important;
 }
