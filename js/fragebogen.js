@@ -10,53 +10,56 @@ window.questionnaireResult = function questionnaireResult() {
      var second = b.options[b.selectedIndex].value;
      var third = c.options[c.selectedIndex].value;*/
 
+    var suessArr = [];
+    var herzhaftArr = [];
+    var unwissendArr = [];
 
     if (a == "suess") {
-        for (i = 1; i <= suessArr.length(); i++) {
+        for (i = 1; i <= 1; i++) {
             suessArr.push(i);
         }
     } else if (a == "herzhaft") {
-        for (q = 1; q <= herzhaftArr.length(); q++) {
+        for (q = 1; q <= 1; q++) {
             herzhaftArr.push(q);
         }
     } else if (a == "-") {
-        for (r = 1; r <= unwissendArr.length(); r++) {
+        for (r = 1; r <= 1; r++) {
             unwissendArr.push(r);
         }
     } else if (b == "suess") {
-        for (i = 1; i <= suessArr.length(); i++) {
+        for (i = 1; i <= 1; i++) {
             suessArr.push(i);
         }
     } else if (b == "herzhaft") {
-        for (q = 1; q <= herzhaftArr.length(); q++) {
+        for (q = 1; q <= 1; q++) {
             herzhaftArr.push(q);
         }
     } else if (b == "-") {
-        for (r = 1; r <= unwissendArr.length(); r++) {
+        for (r = 1; r <= 1; r++) {
             unwissendArr.push(r);
         }
     } else if (c == "suess") {
-        for (i = 1; i <= suessArr.length(); i++) {
+        for (i = 1; i <= 1; i++) {
             suessArr.push(i);
         }
     } else if (c == "herzhaft") {
-        for (q = 1; q <= herzhaftArr.length(); q++) {
+        for (q = 1; q <= 1; q++) {
             herzhaftArr.push(q);
         }
     } else if (c == "-") {
-        for (r = 1; r <= unwissendArr.length(); r++) {
+        for (r = 1; r <= 1; r++) {
             unwissendArr.push(r);
         }
     }
 
-    if (suessArr.length() > herzhaftArr.length() && suessArr.length() > unwissendArr.length()) {
-        document.getElementById("result").innerHTML = "Du bist ein süßes Einhorn! " + document.write("<img src='../img/cuteUnicorn.gif'/>");
+    if (suessArr.length > herzhaftArr.length && suessArr.length > unwissendArr.length) {
+        document.getElementById("result").innerHTML = "Du bist ein süßes Einhorn! <img src='img/cuteUnicorn.gif'/>";
 
-    } else if (herzhaftArr.length() > suessArr.length() && herzhaftArr.length() > unwissendArr.length()) {
-        document.getElementById("result").innerHTML = "Du bist ein herzhaftes Einhorn! " + document.write("<img src='../img/CuteUnicorn2.gif'/>");
+    } else if (herzhaftArr.length > suessArr.length && herzhaftArr.length > unwissendArr.length) {
+        document.getElementById("result").innerHTML = "Du bist ein herzhaftes Einhorn! <img src='img/CuteUnicorn2.gif'/>";
 
-    } else if (unwissendArr.length() > suessArr.length() && unwissendArr.length() > herzhaftArr.length()) {
-        document.getElementById("result").innerHTML = "Du bist ein noch unentschlossenes Einhorn! " + document.write("<img src='../img/CuteUnicorn3.gif'/>");
+    } else if (unwissendArr.length > suessArr.length && unwissendArr.length > herzhaftArr.length) {
+        document.getElementById("result").innerHTML = "Du bist ein noch unentschlossenes Einhorn! <img src='img/CuteUnicorn3.gif'/>";
 
     }
 
